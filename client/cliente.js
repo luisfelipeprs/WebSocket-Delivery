@@ -1,6 +1,6 @@
 const WebSocket = require('ws');
 
-const ws = new WebSocket('ws://localhost:5068/');
+const ws = new WebSocket('ws://localhost:5027/WebSocketTrackingDelivery/ws');
 
 ws.on('open', function open() {
     console.log('Conectado ao WebSocket');
